@@ -12,6 +12,7 @@
 }
 
 
+
 body {
 	font-family: Roboto Condensed;
 	font-weight:300;
@@ -61,6 +62,13 @@ h5 {
 	padding-right:40px;
 	height:38px;
 }
+#primary-menu ul li > a {
+	text-transform:capitalize;
+}
+
+.font-light-blue {
+	color: #00B5FF;
+}
 #col-left {
 	border-left:1px solid #FFF;
 }
@@ -71,12 +79,8 @@ h5 {
 	color:#C2D31E;
 }
 .font-green {
-	color:#C2D31E;
+	color:#A7BB03
 }
-.font-green-2 {
-	color:#A0AF0F;
-}
-
 .btn-black:hover > .check-hover {
 	color:#333333;
 }
@@ -94,6 +98,10 @@ h5 {
 .retina-logo, .standard-logo {
 	width:90%;
 }
+#header.full-header {
+	border-bottom:none;
+	height:73px;
+}
 
 .text-black {
 	color:#2F2E30;
@@ -106,6 +114,11 @@ h5 {
 }
 body.stretched #header.full-header .container {
 	padding-left:10px;
+	padding-right:0px;
+	border-top:3px solid #00B5FF;
+	height:73px;
+	background: #FFFFFF;
+	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
 }
 .text-white {
 	color:#FFF;
@@ -367,6 +380,8 @@ q:after {
 	font-family: Roboto Condensed;
 	letter-spacing:0px;
 	font-size:12px;
+	padding-bottom:11px;
+	padding-top:11px;
 }
 
 #primary-menu > ul > li > a > div.weight-normal {
@@ -440,7 +455,7 @@ q:after {
 	top:25px;
 }
 .section-two-border-top {
-	background: #5C5B81;
+	background: #A7BB03;
 	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
 	height:20px;
 }
