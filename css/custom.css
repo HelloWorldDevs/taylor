@@ -59,10 +59,27 @@ h5 {
 	top:-20px;
 	font-size:14px;
 }
+#btn-forms-bottom {
+	margin-top:10px;
+	padding-left:13px;
+	padding-right:13px;
+	height:33px;
+}
+.top-up-4 {
+	position:relative;
+	top:-4px;
+}
+
 /* New Patient Hotline: */
 .background-orange {
 	background:#FF7A00;
 	color:#FFF;
+}
+.font-12 {
+	font-size:12px;
+}
+.bottommargin-10 {
+	margin-bottom:10px;
 }
 .paddinglr-40 {
 	padding-left:40px;
@@ -726,6 +743,7 @@ div.box-right > div.box-right-top {
 	text-align:center;
 }
 
+
 .social-icon {
 	color:#FFF;
 	border-radius:5px;
@@ -1049,6 +1067,54 @@ section {
 	line-height: 30px;
 
 }
+#section-location {
+	width: 100%;
+    /* whatever width you want */
+    display: inline-block;
+    position: relative;
+    background-size: contain !important;
+    margin: 0 auto;
+	background-repeat:no-repeat !important;
+	margin-bottom:-8px;
+}
+#section-location:after {
+	padding-top: 39.8%;
+    /* this llama image is 800x600 so set the padding top % to match 600/800 = .75 */
+    display: block;
+    content: '';
+}
+.contact-box-wrap {
+	position:absolute;
+	right:0px;
+	height:100%;
+	width:33%;
+	margin-right:14%;
+	padding: 5% 4% 5% 4%;
+}
+
+.address, .patient-hotline-text {
+	color:#7C7C7C;
+	margin-top:10px;
+	font-family: gentium-book basic;
+	text-align:center;
+	font-size:12px;
+	font-weight:300;
+}
+.margin-center {
+	margin:0 auto;
+}
+
+.contact-box {
+	border-radius:3px;
+	background:#FFF;
+	width:100%;
+	border:1px solid #000;
+	height:100%;
+	padding:20px;
+
+}
+
+
 
 .slick-prev:before {
 	content: "\f053";
@@ -1061,4 +1127,7 @@ section {
 	height: 30px;
 	font-size: 20px;
 	line-height: 30px;
+}
+.content-wrap {
+	padding-bottom:0px;
 }
