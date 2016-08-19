@@ -28,6 +28,9 @@ h2 {
 h3 {
 	font-size:39px;
 }
+.font-20 {
+	font-size:20px;
+}
 h1,
 h2,
 h3,
@@ -919,6 +922,10 @@ section {
 	#section-hotline > div > div > h5 {
 		top:10px;
 		position:relative;
+	}
+	#section-visit {
+		background-position-y: 0px;
+		max-height:500px;
 	}
 
 }
