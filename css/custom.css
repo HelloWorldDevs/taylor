@@ -325,6 +325,8 @@ q:after {
 
 #section-reviews > div.center.toppadding > h2 {
 	color:#FFF;
+	position:relative;
+	top:-15px;
 }
 .title-white {
 	/* LIMITED TIME SUMMER: */
