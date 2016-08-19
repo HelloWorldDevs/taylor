@@ -99,6 +99,15 @@
       arrows: true,
       autoplaySpeed: 4000,
     });
+    $('.team-slider').slick({
+      dots: true,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      arrows: true,
+      autoplaySpeed: 4000,
+    });
   });
   $(window).on("resize", function () {
     HWD.fixRows();
