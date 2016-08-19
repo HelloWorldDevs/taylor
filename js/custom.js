@@ -107,6 +107,22 @@
       slidesToScroll: 1,
       arrows: true,
       autoplaySpeed: 4000,
+      responsive: [
+        {
+          breakpoint: 800,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        }
+      ]
     });
   });
   $(window).on("resize", function () {
