@@ -931,6 +931,26 @@ section {
 	text-align: center;
 }
 
+.team-member {
+	padding: 10px;
+	text-align: center;
+}
+
+.team-name {
+	color: #00B5FF;
+	font-size: 30px;
+	margin-bottom: 0px;
+}
+
+.team-image {
+	background-color: black;
+}
+
+.team-image img:hover {
+	border: 2px solid #00B5FF;
+	opacity: 0.7;
+}
+
 .slick-slide img {
 	display: block;
 	margin: 0px auto;
