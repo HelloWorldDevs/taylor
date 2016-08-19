@@ -38,6 +38,10 @@ h6  {
 	font-weight:300;
 	letter-spacing: -0.97;
 }
+#section-visit {
+	background-position-y: 75px;
+	max-height:500px;
+}
 h4 {
 	font-size:26px;
 }
