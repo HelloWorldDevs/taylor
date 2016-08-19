@@ -350,7 +350,6 @@ q:after {
 }
 
 .row .price-box, .row .price-box-mid {
-	/* Rectangle 5 Copy 2: */
 	background: #FFFFFF;
 	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
 	border-radius: 8px;
@@ -363,10 +362,10 @@ q:after {
 }
 
 .row .price-box {
-	color:#7ED321;
+	color:#1344E1;
 }
 .row .price-box-mid {
-	color: #7270BC;
+	color: #50E3C2;
 }
 
 .price-box-top, .price-box-top-mid, .price-box-top-bottom {
@@ -377,10 +376,10 @@ q:after {
 	background: #7ED321;
 }
 .price-box-top-mid {
-	background:#7270BC;
+	background:#50E3C2;
 }
 .price-box-top-bottom {
-	background:#2A2D61;
+	background:#1344E1;
 }
 .price-box-content {
 	padding:25px;
@@ -396,12 +395,9 @@ q:after {
 #content p {
 	line-height:1.3;
 }
-.green-1 {
-	color:#7ED321;
-}
 
-.color-purple-3 {
-	color:#2A2D61;
+.color-blue-1 {
+	color:#1344E1;
 }
 #primary-menu > ul > li > a > div, #primary-menu ul li > a {
 	font-weight:300;
@@ -431,7 +427,7 @@ q:after {
 	margin-bottom:5px;
 }
 .price-box-h3-mid, .price-box-h4-mid {
-	color:#7270BC;
+	color:#50E3C2;
 }
 
 .price-box-price {
@@ -736,6 +732,10 @@ section {
 	background:#FFF;
 	padding:15px;
 }
+.green-1 {
+	color:#7ED321;
+}
+
 .form-error {
   color: #D56724;
   margin: 0 0 20px 0;
