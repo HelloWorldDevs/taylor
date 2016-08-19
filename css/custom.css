@@ -276,19 +276,30 @@ q:after {
 #section-about {
 	background-size:inherit;
 }
+
 .notoppadding {
 	padding-top:0;
 }
 
 .section-three-text {
-	/* Stephanie iѕ origina: */
-	font-size: 14px;
-	color: #FFFFFF;
+	font-size: 15px;
+	color: #727779;
 	margin-bottom:14px;
-	letter-spacing: -0.32px;
+	letter-spacing: .1px;
+	font-weight:300;
+}
+.font-14 {
+	font-size:14px;
+}
+
+.italic {
+	font-style:italic;
 }
 .toppadding {
 	padding-top:50px;
+}
+.extra-width {
+	width:105%;
 }
 
 .title-purple {
@@ -305,9 +316,9 @@ q:after {
 .section-three-title {
 	/* Ross M. LeCavalier,: */
 	font-size: 25px;
-	color: #C2D31E;
+	color: #00B5FF;
 	font-weight:400;
-	margin-bottom:40px;
+	margin-bottom:13px;
 }
 .section-four-span {
 	/* Offer Ends September: */
@@ -463,10 +474,7 @@ q:after {
 #section-services {
 	background:#3E3E3E;
 }
-#h3-ross-m {
-	position:relative;
-	top:25px;
-}
+
 .section-two-border-top {
 	background: #A7BB03;
 	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
