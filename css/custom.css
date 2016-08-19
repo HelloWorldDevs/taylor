@@ -87,6 +87,9 @@ h5 {
 .btn-black:hover > .check-hover {
 	color:#333333;
 }
+.font-blue {
+	color:#1344E1;
+}
 .dark h2 {
 	color:#EFF9A5;
 }
@@ -271,7 +274,7 @@ q:after {
 }
 
 #section-about {
-	background:#3E3E3E;
+	background-size:inherit;
 }
 .notoppadding {
 	padding-top:0;
