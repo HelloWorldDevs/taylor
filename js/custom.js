@@ -90,6 +90,15 @@
     HWD.fixRows();
     HWD.noOrphans('h1,h2,h3,h4,h5,h6,li,p');
     HWD.mailForm('#mail-form');
+    $('.tour-slider').slick({
+      dots: true,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: true,
+      autoplaySpeed: 4000,
+    });
   });
   $(window).on("resize", function () {
     HWD.fixRows();

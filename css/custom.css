@@ -927,3 +927,53 @@ section {
 		height: auto;
 	}
 }
+
+
+/*Slick Slider*/
+
+.tour-slide {
+	min-height: 300px;
+	width: 100%;
+	background-position: center center;
+	background-size: cover;
+	text-align: center;
+}
+
+.slick-slide img {
+	display: block;
+	margin: 0px auto;
+}
+.slick-prev {
+	left: -15px;
+	z-index: 2;
+}
+.slick-next {
+	right: -15px;
+}
+
+.slick-next:before {
+	content: "\f054";
+	font-family: 'FontAwesome';
+	border: 1px solid white;
+	background-color: #00B5FF;
+	border-radius: 100%;
+	display: block;
+	width: 30px;
+	height: 30px;
+	font-size: 20px;
+	line-height: 30px;
+
+}
+
+.slick-prev:before {
+	content: "\f053";
+	font-family: 'FontAwesome';
+	border: 1px solid white;
+	background-color: #00B5FF;
+	border-radius: 100%;
+	display: block;
+	width: 30px;
+	height: 30px;
+	font-size: 20px;
+	line-height: 30px;
+}
