@@ -332,6 +332,9 @@ q:after {
 	/* Line: */
 	border: 1px solid #7C7C7C;
 }
+.fa-star {
+	color:#FFD700;
+}
 .contact-blue {
 	color:#2A2D61;
 	font-weight:bold;
