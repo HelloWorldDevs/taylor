@@ -70,10 +70,23 @@ h5 {
 	color: #00B5FF;
 }
 #col-left {
-	border-left:1px solid #FFF;
+	border-left:1px solid #353C3F;
 }
 #col-right {
 	margin-top:-7px;
+}
+
+.btn-green-font {
+	text-shadow:none;
+	font-size:12px;
+	letter-spacing:.2px;
+	color:#353C3F;
+	text-transform:capitalize;
+	background:#DBEC5C;
+	border-radius:5px;
+	border:1px solid #d1d1d1;
+	padding-left:35px;
+	padding-right:35px;
 }
 .dark h4 {
 	color:#C2D31E;
@@ -165,10 +178,14 @@ q:after {
 .dark .slider-caption h2 {
 	letter-spacing: -1.5px;
 }
+.font-15 {
+	font-size:15px;
+	position:relative;
+	top:-15px;
+}
 .top-15 {
 	position:relative;
 	top:-15px;
-	font-size:15px;
 }
 .margin-neg-15 {
 	margin-top:-15px !important;
@@ -693,6 +710,7 @@ div.box-right > div.box-right-top {
 	color:#FFF;
 	text-align:center;
 }
+
 .social-icon {
 	color:#FFF;
 	border-radius:5px;
@@ -730,10 +748,15 @@ section {
 #mobile-background {
 	display:none;
 }
+.font-light-black {
+	color:#353C3F;
+}
 #section-hotline {
 	background:#FFF;
-	height:200px;
+	height:180px;
+	margin-top:30px;
 }
+
 
 .modal.in .modal-dialog {
 	border-radius:5px;
@@ -768,6 +791,13 @@ section {
 	}
 
 }
+
+@media only screen and (min-width: 992px) {
+	#section-hotline > div > div {
+		margin-top:-10px;
+	}
+}
+
 
 @media only screen and (max-width:991px) {
 	.section-1-column {
@@ -860,6 +890,23 @@ section {
 	.center-mobile {
 		text-align:center;
 		float:none !important;
+	}
+	#section-hotline {
+		height:225px;
+	}
+	#section-hotline > div > h5 {
+		top:15px;
+	}
+	#col-right > div > h4 {
+		margin-bottom:10px;
+	}
+	#section-hotline > div.row.center.margin-neg-15 {
+		position:relative;
+		top:15px;
+	}
+	#section-hotline > div > div > h5 {
+		top:10px;
+		position:relative;
 	}
 
 }
