@@ -323,6 +323,9 @@ q:after {
 	width:105%;
 }
 
+#section-reviews > div.center.toppadding > h2 {
+	color:#FFF;
+}
 .title-white {
 	/* LIMITED TIME SUMMER: */
 	font-size: 38px;
