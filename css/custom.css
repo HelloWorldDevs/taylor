@@ -264,6 +264,10 @@ q:after {
 	height:40px;
 	color:#000;
 }
+.btn-orange {
+	padding-top:8px;
+	padding-bottom:10px;
+}
 .text-left .green {
 	color: #C2D31E;
 }
@@ -725,6 +729,10 @@ section {
 }
 #mobile-background {
 	display:none;
+}
+#section-hotline {
+	background:#FFF;
+	height:200px;
 }
 
 .modal.in .modal-dialog {
