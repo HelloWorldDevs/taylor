@@ -780,6 +780,9 @@ div.box-right > div.box-right-top {
 	padding-right:15px;
 	position:absolute;
 	right:0px;
+	padding-left:27px;
+	width:185px;
+	padding-top:15px;
 }
 .social-icon {
 	margin-right:15px;
@@ -811,6 +814,9 @@ section {
 }
 .text-left {
 	text-align:left;
+}
+#section-tour > div.container {
+	margin-bottom:20px;
 }
 .toppadding-10 {
 	padding-top:10px;
@@ -895,6 +901,10 @@ section {
 	line-height: 30px;
 
 }
+
+#section-tour > div.center.bottommargin-20 > span {
+	font-size: 16px;
+}
 #section-location {
 	width: 100%;
     /* whatever width you want */
@@ -977,6 +987,10 @@ section {
 	.section-1-column {
 		text-align:center;
 	}
+	.contact-box {
+		margin-top:-20px;
+		height:113%;
+	}
 	#col-left {
 		border-left:none;
 	}
@@ -1042,7 +1056,6 @@ section {
 	.social-icon-wrap {
 		position:relative;
 		float:none !important;
-		width:156px;
 		margin:0 auto;
 	}
 	.content-wrap {
@@ -1098,6 +1111,14 @@ section {
 		width:100%;
 		margin-right:0;
 	}
+	#section-location {
+		background-image:none !important;
+		margin-top:-125px;
+	}
+	.slick-dots {
+		position:relative;
+		top:-70px;
+	}
 	.mobile-35-width {
 		width:35%;
 	}
@@ -1141,6 +1162,9 @@ section {
 	}
 	.slick-dots li button:before {
 		display:none;
+	}
+	#section-location {
+		margin-top:0px;
 	}
 }
 @media only screen and (max-width:320px) {
@@ -1197,6 +1221,21 @@ section {
 	}
 	#section-tour > div.container {
 		margin-bottom:-85px;
+	}
+	.contact-box {
+		margin-bottom:-20px;
+	}
+	.box-left-bottom {
+		padding-right:5px;
+	}
+	.box-left {
+		height:505px !important;
+	}
+	#section-pricing > div > div.center.bottommargin > h2 {
+		font-size:40px;
+	}
+	#primary-menu {
+		margin-top:71px;
 	}
 
 }
