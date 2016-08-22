@@ -52,6 +52,7 @@
 								<div class="row section-1-row">
 									<div class="col-md-6 roboto-condensed section-1-column" id="col-right">
 										<div class="height-30"><h5 class="p-font-size p-no-margin">New Patient Hotline</h5></div>
+
 										<div><h4 class="font-green">(888) 387-1599</h4></div>
 									</div>
 									<div class="col-md-6" id="col-left">
@@ -543,9 +544,9 @@
 			</section>
 
 			<section id="section-tour">
-				<div class="center bottommargin">
-					<h2 class="topmargin-30">OFFICE TOUR</h2>
-					<span class="">Our state-of-the-art office and pleasant, relaxing atmosphere awaits you.</span>
+				<div class="center bottommargin-20">
+					<h2 class="topmargin-30 bottommargin-20 font-blue">OFFICE TOUR</h2>
+					<span class="font-light-black">Our state-of-the-art office and pleasant, relaxing atmosphere awaits you.</span>
 				</div>
 				<div class="container">
 					<div class="tour-slider">
@@ -573,80 +574,47 @@
 
 
 			<!--Inserting sample contact field-->
-			<section id="section-location" class="page-section">
-
-				<div class="container clearfix">
-
-					<div class="center topmargin-30 bottommargin">
-						<h2 class="title-purple">OUR LOCATION</h2>
-						<span class="section-four-span">Looking for a top-notch Denver family dentist? Come visit us today!</span>
-					</div>
-
-					<div class="row">
-						<div class="col-md-4 center">
-							<div class="col-md-6"></div>
-							<div class="col-md-6 nopadding">
-								<img class="bottommargin-20 img-size-80" src="images/cavalier-bottom.svg" alt="Why choose Us?">
-
-								<p class="center contact-blue">Ross M. LeCavalier, DDS</p>
-								<p class="contact-address">2761 W. 120th Avenue, Suite #220<br>
-									Westminister, CO 80234</p>
-							</div>
+			<section id="section-location" style="background-image:url('images/gmap-screenshot.png');">
+				<div class="contact-box-wrap">
+					<div class="contact-box center">
+						<div class="taylor-image-wrap">
+							<img class="mobile-35-width" src="images/taylor-logo-web.png">
 						</div>
-						<div class="col-md-4 center">
-							<div class="col-md-12 center">
-								<div class="contact-address margin-neg-5">New Patient Hotline</div>
-								<div id="contact-phone-big" class="roboto-condensed margin-neg-5">(888) 387-1599</div>
-								<div class="contact-address">Existing patients call</div>
-								<div id="contact-phone-small">(303) 288-3718</div>
-								<button class="btn btn-green topmargin-15" data-toggle="modal" data-target="#myModal"><i class="fa fa-calendar" aria-hidden="true"></i> Request Appointment</button>
-
-
-								<!-- Modal -->
-								<div id="myModal" class="modal fade" role="dialog">
-									<div class="modal-dialog">
-
-										<!-- Modal content-->
-										<form id="mail-form" action="//web-api.tysonsteele.com/v1/webprops/KEY/notify">
-											<h5>YES! Please contact me to schedule an appointment or answer any questions I might still have:</h5>
-											<div class="row appointment_input_row form-group">
-												<div class="col-xs-4">
-													<label for="name">My name:</label>
-												</div>
-												<div class="col-xs-8">
-													<input type="text" required name="name" id="name" class="form-control appointment_form"/>
-												</div>
-											</div>
-											<div class="row appointment_input_row form-group">
-												<div class="col-xs-4">
-													<label for="name">Email:</label>
-												</div>
-												<div class="col-xs-8">
-													<input type="email" required name="email" id="email" class="form-control appointment_form"/>
-												</div>
-											</div>
-											<div class="row appointment_input_row form-group">
-												<div class="col-xs-4">
-													<label for="name">Phone #:</label>
-												</div>
-												<div class="col-xs-8">
-													<input type="text" required name="phone" id="phone" class="form-control appointment_form"/>
-												</div>
-											</div>
-											<button type="submit" class="btn btn-danger btn-block btn-lg">Request Appointment</button>
-										</form>
-
-									</div>
+						<div class="address center">
+							<span>500 NW 43rd Street, Suite 4<br>
+								Gainsville, FL 32607</span>
+						</div>
+						<div class="patient-hotline-text">
+							<span>New Patient Hotline</span>
+						</div>
+						<div class="font-25">(888) 387-1599</div>
+						<div class="patient-hotline-text">
+							<span>Existing Patients Call</span>
+						</div>
+						<div class="font-17 bottommargin-10">(352) 376-3400</div>
+						<button class="mobile-gone btn background-orange margin-center roboto-condensed font-light font-12"><i class="fa fa-calendar" aria-hidden="true"></i> Request Appointment
+						</button>
+						<div class="mobile-gone">
+							<a href="http://yapi.me/f/view.php?id=52276&guid=%7B406FEB23-99D3-4957-A721-A6440FC72518%7D&tag=cassis&fp=default&nbu=New+Patient+Adult&goto4=https://goo.gl/NaAMHy"  target="_blank" id="btn-forms-bottom" class="button roboto-condensed font-light btn-green-font"><span class="top-up-4"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>View Online Forms</span></a>
+						</div>
+						<div class="row center" id="display-contact-box">
+							<div class="col-xs-6 toppadding-10">
+								<div class="mobile-appear text-right">
+									<button class="btn background-orange margin-center roboto-condensed font-light font-12"><i class="fa fa-calendar" aria-hidden="true"></i> Request Appointment
+								</button>
+								</div>
+							</div>
+							<div class="col-xs-6">
+								<div class="mobile-appear text-left">
+									<a href="http://yapi.me/f/view.php?id=52276&guid=%7B406FEB23-99D3-4957-A721-A6440FC72518%7D&tag=cassis&fp=default&nbu=New+Patient+Adult&goto4=https://goo.gl/NaAMHy"  target="_blank" id="btn-forms-bottom" class="button roboto-condensed font-light btn-green-font"><span class="top-up-4"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>View Online Forms</span></a>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4 center noleftpadding ">
-							<section id="google-map" class="gmap" style="height: 216px;width:296px;"></section>
-						</div>
+
+
+
 					</div>
 				</div>
-
-
 
 			</section>
 
@@ -689,11 +657,9 @@
 
 <!-- External JavaScripts
 ============================================= -->
-<<<<<<< HEAD
+
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-=======
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
->>>>>>> old-state
 <script>window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')</script>
 <script type="text/javascript" src="js/plugins.js"></script>
 

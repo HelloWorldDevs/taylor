@@ -28,6 +28,18 @@ h2 {
 h3 {
 	font-size:39px;
 }
+.font-17 {
+	font-size:17px;
+}
+.font-20 {
+	font-size:20px;
+}
+.font-25 {
+	font-size:25px;
+}
+.bottommargin-5 {
+	margin-bottom:5px;
+}
 h1,
 h2,
 h3,
@@ -56,10 +68,27 @@ h5 {
 	top:-20px;
 	font-size:14px;
 }
+#btn-forms-bottom {
+	margin-top:10px;
+	padding-left:13px;
+	padding-right:13px;
+	height:33px;
+}
+.top-up-4 {
+	position:relative;
+	top:-4px;
+}
+
 /* New Patient Hotline: */
 .background-orange {
 	background:#FF7A00;
 	color:#FFF;
+}
+.font-12 {
+	font-size:12px;
+}
+.bottommargin-10 {
+	margin-bottom:10px;
 }
 .paddinglr-40 {
 	padding-left:40px;
@@ -694,6 +723,22 @@ div.box-right > div.box-right-top {
 .font-orange {
 	color:#FF7A00;
 }
+.contact-box-wrap {
+	position:absolute;
+	right:0px;
+	height:100%;
+	width:33%;
+	margin-right:14%;
+	padding: 5% 4% 5% 4%;
+}
+.contact-box {
+	border-radius:3px;
+	background:#FFF;
+	width:100%;
+	height:100%;
+	padding:20px;
+
+}
 
 .float-left {
 	float:left;
@@ -714,7 +759,7 @@ div.box-right > div.box-right-top {
 }
 
 #footer, #copyrights {
-	background: #5C5B81;
+	background: #A7BB03;
 	height:96px;
 }
 #copyrights {
@@ -722,6 +767,7 @@ div.box-right > div.box-right-top {
 	color:#FFF;
 	text-align:center;
 }
+
 
 .social-icon {
 	color:#FFF;
@@ -734,6 +780,9 @@ div.box-right > div.box-right-top {
 	padding-right:15px;
 	position:absolute;
 	right:0px;
+	padding-left:27px;
+	width:185px;
+	padding-top:15px;
 }
 .social-icon {
 	margin-right:15px;
@@ -760,6 +809,18 @@ section {
 #mobile-background {
 	display:none;
 }
+.text-right {
+	text-align:right;
+}
+.text-left {
+	text-align:left;
+}
+#section-tour > div.container {
+	margin-bottom:20px;
+}
+.toppadding-10 {
+	padding-top:10px;
+}
 .font-light-black {
 	color:#353C3F;
 }
@@ -785,6 +846,117 @@ section {
   padding: 0 0 0 30px;
   display: none;
 }
+
+/*Slick Slider*/
+
+.tour-slide {
+	min-height: 300px;
+	width: 100%;
+	background-position: center center;
+	background-size: cover;
+	text-align: center;
+}
+
+.team-member {
+	padding: 10px;
+	text-align: center;
+}
+
+.team-name {
+	color: #00B5FF;
+	margin-bottom: 0px;
+}
+
+.team-image {
+	background-color: black;
+}
+
+.team-image img:hover {
+	border: 2px solid #00B5FF;
+	opacity: 0.7;
+}
+
+.slick-slide img {
+	display: block;
+	margin: 0px auto;
+}
+.slick-prev {
+	left: -15px;
+	z-index: 2;
+}
+.slick-next {
+	right: -15px;
+}
+
+.slick-next:before {
+	content: "\f054";
+	font-family: 'FontAwesome';
+	border: 1px solid white;
+	background-color: #00B5FF;
+	border-radius: 100%;
+	display: block;
+	width: 30px;
+	height: 30px;
+	font-size: 20px;
+	line-height: 30px;
+
+}
+
+#section-tour > div.center.bottommargin-20 > span {
+	font-size: 16px;
+}
+#section-location {
+	width: 100%;
+    /* whatever width you want */
+    display: inline-block;
+    position: relative;
+    background-size: contain !important;
+    margin: 0 auto;
+	background-repeat:no-repeat !important;
+	margin-bottom:-8px;
+}
+#section-location:after {
+	padding-top: 39.8%;
+    /* this llama image is 800x600 so set the padding top % to match 600/800 = .75 */
+    display: block;
+    content: '';
+}
+
+
+.address, .patient-hotline-text {
+	color:#7C7C7C;
+	margin-top:10px;
+	font-family: gentium-book basic;
+	text-align:center;
+	font-size:12px;
+	font-weight:300;
+}
+.margin-center {
+	margin:0 auto;
+}
+
+
+
+.slick-dots li button:before {
+	font-size:28px;
+}
+
+.slick-prev:before {
+	content: "\f053";
+	font-family: 'FontAwesome';
+	border: 1px solid white;
+	background-color: #00B5FF;
+	border-radius: 100%;
+	display: block;
+	width: 30px;
+	height: 30px;
+	font-size: 20px;
+	line-height: 30px;
+}
+.content-wrap {
+	padding-bottom:0px;
+}
+
 
 @media only screen and (max-width:1200px) {
 
@@ -814,6 +986,10 @@ section {
 @media only screen and (max-width:991px) {
 	.section-1-column {
 		text-align:center;
+	}
+	.contact-box {
+		margin-top:-20px;
+		height:113%;
 	}
 	#col-left {
 		border-left:none;
@@ -880,7 +1056,6 @@ section {
 	.social-icon-wrap {
 		position:relative;
 		float:none !important;
-		width:156px;
 		margin:0 auto;
 	}
 	.content-wrap {
@@ -920,11 +1095,39 @@ section {
 		top:10px;
 		position:relative;
 	}
+	#section-visit {
+		background-position-y: 0px;
+		max-height:500px;
+	}
 
+}
+.mobile-appear {
+	display:none;
 }
 
 
 @media only screen and (max-width:768px) {
+	.contact-box-wrap {
+		width:100%;
+		margin-right:0;
+	}
+	#section-location {
+		background-image:none !important;
+		margin-top:-125px;
+	}
+	.slick-dots {
+		position:relative;
+		top:-70px;
+	}
+	.mobile-35-width {
+		width:35%;
+	}
+	.mobile-gone {
+		display:none;
+	}
+	.mobile-appear {
+		display:block;
+	}
 	#slider {
 		display:none;
 	}
@@ -957,6 +1160,12 @@ section {
 	.price-mobile {
 		margin-bottom:15px;
 	}
+	.slick-dots li button:before {
+		display:none;
+	}
+	#section-location {
+		margin-top:0px;
+	}
 }
 @media only screen and (max-width:320px) {
 	div.box-left > div.box-left-top > h4 {
@@ -967,6 +1176,9 @@ section {
 	}
 	#section-services {
 		height:550px;
+	}
+	#section-location {
+		background-image:none;
 	}
 	.section-six-container {
 		width:100%;
@@ -985,73 +1197,45 @@ section {
 	#footer, #copyrights {
 		height: auto;
 	}
-}
+	#section-location:after {
+	}
+	.contact-box-wrap {
+		position:relative;
+		top:80px;
+	}
+	.mobile-appear {
+		display:none;
+	}
+	.mobile-gone {
+		display:block;
+	}
+	#section-location {
+		margin-bottom:-100px;
+		background-image:none !important;
+	}
+	.mobile-35-width {
+		width:90%;
+	}
+	.slick-initialized .slick-slide {
+		margin-bottom:-200px;
+	}
+	#section-tour > div.container {
+		margin-bottom:-85px;
+	}
+	.contact-box {
+		margin-bottom:-20px;
+	}
+	.box-left-bottom {
+		padding-right:5px;
+	}
+	.box-left {
+		height:505px !important;
+	}
+	#section-pricing > div > div.center.bottommargin > h2 {
+		font-size:40px;
+	}
+	#primary-menu {
+		margin-top:71px;
+	}
 
-
-/*Slick Slider*/
-
-.tour-slide {
-	min-height: 300px;
-	width: 100%;
-	background-position: center center;
-	background-size: cover;
-	text-align: center;
-}
-
-.team-member {
-	padding: 10px;
-	text-align: center;
-}
-
-.team-name {
-	color: #00B5FF;
-	margin-bottom: 0px;
-}
-
-.team-image {
-	background-color: black;
-}
-
-.team-image img:hover {
-	border: 2px solid #00B5FF;
-	opacity: 0.7;
-}
-
-.slick-slide img {
-	display: block;
-	margin: 0px auto;
-}
-.slick-prev {
-	left: -15px;
-	z-index: 2;
-}
-.slick-next {
-	right: -15px;
-}
-
-.slick-next:before {
-	content: "\f054";
-	font-family: 'FontAwesome';
-	border: 1px solid white;
-	background-color: #00B5FF;
-	border-radius: 100%;
-	display: block;
-	width: 30px;
-	height: 30px;
-	font-size: 20px;
-	line-height: 30px;
-
-}
-
-.slick-prev:before {
-	content: "\f053";
-	font-family: 'FontAwesome';
-	border: 1px solid white;
-	background-color: #00B5FF;
-	border-radius: 100%;
-	display: block;
-	width: 30px;
-	height: 30px;
-	font-size: 20px;
-	line-height: 30px;
 }
