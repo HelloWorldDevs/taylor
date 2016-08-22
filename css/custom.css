@@ -781,7 +781,7 @@ div.box-right > div.box-right-top {
 	position:absolute;
 	right:0px;
 	padding-left:27px;
-	width:185px;
+	width: 100px;
 	padding-top:15px;
 }
 .social-icon {
