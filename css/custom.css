@@ -1004,7 +1004,7 @@ section {
 		text-align:center;
 	}
 	.nopaddingbottom-mobile {
-		padding-bottom:0px;
+		padding-bottom:0px !important;
 
 	}
 	.float-left-mobile {
