@@ -125,42 +125,7 @@
 		</div>
 	</section>
 
-	<!-- Modal -->
-									<div id="myModal" class="modal fade" role="dialog">
-									  <div class="modal-dialog">
 
-									    <!-- Modal content-->
-										<form id="mail-form" action="//web-api.tysonsteele.com/v1/webprops/KEY/notify">
-								          <h5>YES! Please contact me to schedule an appointment or answer any questions I might still have:</h5>
-								          <div class="row appointment_input_row form-group">
-								            <div class="col-xs-4">
-								              <label for="name">My name:</label>
-								            </div>
-								            <div class="col-xs-8">
-								              <input type="text" required name="name" id="name" class="form-control appointment_form"/>
-								            </div>
-								          </div>
-								          <div class="row appointment_input_row form-group">
-								            <div class="col-xs-4">
-								              <label for="name">Email:</label>
-								            </div>
-								            <div class="col-xs-8">
-								              <input type="email" required name="email" id="email" class="form-control appointment_form"/>
-								            </div>
-								          </div>
-								          <div class="row appointment_input_row form-group">
-								            <div class="col-xs-4">
-								              <label for="name">Phone #:</label>
-								            </div>
-								            <div class="col-xs-8">
-								              <input type="text" required name="phone" id="phone" class="form-control appointment_form"/>
-								            </div>
-								          </div>
-								          <button type="submit" class="roll-over btn btn-danger btn-block btn-lg">Request Appointment</button>
-								        </form>
-
-									  </div>
-									</div>
 
 	<!-- Header
   ============================================= -->
@@ -635,7 +600,7 @@
 							<span>Existing Patients Call</span>
 						</div>
 						<div class="font-17 bottommargin-10">(352) 376-3400</div>
-						<button class="mobile-gone btn background-orange margin-center roboto-condensed font-light font-12"><i class="fa fa-calendar" aria-hidden="true"></i> Request Appointment
+						<button class="mobile-gone btn background-orange margin-center roboto-condensed font-light font-12" data-toggle="modal" data-target="#myModal"><i class="fa fa-calendar" aria-hidden="true"></i> Request Appointment
 						</button>
 						<div class="mobile-gone">
 							<a href="http://yapi.me/f/view.php?id=52276&guid=%7B406FEB23-99D3-4957-A721-A6440FC72518%7D&tag=cassis&fp=default&nbu=New+Patient+Adult&goto4=https://goo.gl/NaAMHy"  target="_blank" id="btn-forms-bottom" class="button roboto-condensed font-light btn-green-font"><span class="top-up-4"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>View Online Forms</span></a>
@@ -689,6 +654,43 @@
 
 <!-- Go To Top
 ============================================= -->
+
+<!-- Modal -->
+								<div id="myModal" class="modal fade" role="dialog">
+								  <div class="modal-dialog">
+
+									<!-- Modal content-->
+									<form id="mail-form" action="//web-api.tysonsteele.com/v1/webprops/KEY/notify">
+									  <h5>YES! Please contact me to schedule an appointment or answer any questions I might still have:</h5>
+									  <div class="row appointment_input_row form-group">
+										<div class="col-xs-4">
+										  <label for="name">My name:</label>
+										</div>
+										<div class="col-xs-8">
+										  <input type="text" required name="name" id="name" class="form-control appointment_form"/>
+										</div>
+									  </div>
+									  <div class="row appointment_input_row form-group">
+										<div class="col-xs-4">
+										  <label for="name">Email:</label>
+										</div>
+										<div class="col-xs-8">
+										  <input type="email" required name="email" id="email" class="form-control appointment_form"/>
+										</div>
+									  </div>
+									  <div class="row appointment_input_row form-group">
+										<div class="col-xs-4">
+										  <label for="name">Phone #:</label>
+										</div>
+										<div class="col-xs-8">
+										  <input type="text" required name="phone" id="phone" class="form-control appointment_form"/>
+										</div>
+									  </div>
+									  <button type="submit" class="roll-over btn btn-danger btn-block btn-lg">Request Appointment</button>
+									</form>
+
+								  </div>
+								</div>
 
 <!-- External JavaScripts
 ============================================= -->
