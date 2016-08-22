@@ -86,7 +86,9 @@
 									</div>
 									<div class="col-md-6" id="col-left">
 										<div class="btn-wrap float-left">
-											<button class="btn-green paddinglr-40 btn" id="move-up" data-toggle="modal" data-target="#myModal"><i class="fa fa-comment" aria-hidden="true"></i><span class="font-light margin-left-3"> Read Our Reviews </button>
+											<div class="btn-wrap float-left roll-over top-mobile">
+												<a href="#section-reviews-2" data-href="#section-reviews-link" class="smoothScroll btn-green paddinglr-40 btn" id="move-up" ><i class="fa fa-comment" aria-hidden="true"></i><span class="font-light margin-left-3"> Read Our Reviews</a>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -177,13 +179,13 @@
 				<nav id="primary-menu">
 
 					<ul class="font-light one-page-menu " data-easing="easeInOutExpo" data-speed="1500">
-						<li><a href="#" data-href="#section-work" class="font-green"><div class="weight-normal font-orange">New Patient Offers!</div></a></li>
-						<li><a href="#" data-href="#section-services" data-offset="60"><div class="font-light-blue">No Insurance?</div></a></li>
-						<li><a href="#" data-href="#section-reviews"><div class="font-green">Reviews</div></a></li>
-						<li><a href="#" data-href="#content"><div>Meet the Team</div></a></li>
-						<li><a href="#" data-href="#section-pricing"><div>Services</div></a></li>
-						<li><a href="#" data-href="#section-smile-gallery"><div>Office Tour</div></a></li>
-						<li><a href="#" data-href="#section-location"><div>Location</div></a></li>
+						<li><a href="#new-patient-offers-link-to" data-href="#section-work" class="font-green smoothScroll"><div class="weight-normal font-orange">New Patient Offers!</div></a></li>
+						<li><a href="#no-insurance-link-to" data-href="#section-services" data-offset="60"><div class="font-light-blue">No Insurance?</div></a></li>
+						<li><a href="#section-reviews-2" data-href="#section-reviews"><div class="font-green smoothScroll">Reviews</div></a></li>
+						<li><a href="#meet-the-team-link-to" data-href="#content"><div>Meet the Team</div></a></li>
+						<li><a href="#services-link-to" data-href="#section-pricing"><div>Services</div></a></li>
+						<li><a href="#office-tour-link-to" data-href="#section-smile-gallery"><div>Office Tour</div></a></li>
+						<li><a href="#location-link-to" data-href="#section-location"><div>Location</div></a></li>
 					</ul>
 
 					<!-- Top Search
@@ -218,6 +220,7 @@
 
 
 	</section>
+	<a id="meet-the-team-link-to" href="#"></a>
 	<section id="content" class="meet-the-team gentium-book font-light">
 
 		<div class="content-wrap notoppadding">
@@ -341,6 +344,7 @@
 			<section id="section-work" class="notoppadding page-section">
 
 				<div class="center toppadding">
+					<a id="new-patient-offers-link-to" href="#"></a>
 					<h2 class="title-white">LIMITED TIME SUMMER SPECIALS</h2>
 					<span class="section-four-span">Offer Ends September 20, 2016</span>
 				</div>
@@ -416,7 +420,7 @@
 				</section>
 
 
-
+			<a id="section-reviews-2" href="#"></a>
 			<section id="section-reviews" class="page-section parallax dark" style="background-image:url('images/reviews-section.jpg');">
 
 				<div class="center toppadding">
@@ -432,7 +436,7 @@
 
 			</section>
 
-
+			<a id="no-insurance-link-to" href="#"></a>
 			<section id="section-services" class="page-section">
 
 				<div class="container clearfix">
@@ -468,7 +472,7 @@
 				</div>
 
 			</section>
-
+			<a id="services-link-to" href="#"></a>
 			<section id="section-pricing" class="page-section">
 
 				<div class="container clearfix">
@@ -580,7 +584,7 @@
 
 
 			</section>
-
+			<a href="#" id="office-tour-link-to"></a>
 			<section id="section-tour">
 				<div class="center bottommargin-20">
 					<h2 class="topmargin-30 bottommargin-20 font-blue">OFFICE TOUR</h2>
@@ -612,6 +616,7 @@
 
 
 			<!--Inserting sample contact field-->
+			<a href="#" id="location-link-to"></a>
 			<section id="section-location" style="background-image:url('images/gmap-screenshot.png');">
 				<div class="contact-box-wrap">
 					<div class="contact-box center">
@@ -692,6 +697,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')</script>
 <script type="text/javascript" src="js/plugins.js"></script>
+<script type="text/javascript" src="javascript/smoothscroll.js"></script>
 
 <!-- Footer Scripts
 ============================================= -->
