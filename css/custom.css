@@ -1167,7 +1167,7 @@ section {
 		margin-top:0px;
 	}
 }
-@media only screen and (max-width:320px) {
+@media only screen and (max-width:400px) {
 	div.box-left > div.box-left-top > h4 {
 		font-size:18px;
 	}
@@ -1237,5 +1237,20 @@ section {
 	#primary-menu {
 		margin-top:71px;
 	}
+	#section-about > div > div.team-slider.slick-initialized.slick-slider.slick-dotted > div > div {
+		height:201px;
+	}
+	.team-name {
+		font-size:20px;
+	}
+	#insurance-text > h2 {
+		font-size:40px;
+	}
 
+}
+
+@media only screen and (max-width:320px) {
+	#section-hotline {
+		height:280px;
+	}
 }
