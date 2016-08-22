@@ -870,11 +870,27 @@ section {
 
 .team-image {
 	background-color: black;
+	text-align: center;
 }
 
 .team-image img:hover {
 	border: 2px solid #00B5FF;
 	opacity: 0.7;
+}
+
+.team-image i {
+	display: none;
+	opacity: 1;
+}
+
+.team-image:hover i {
+	height: 100%;
+	display: block;
+	position: absolute;
+	transform: translateY(45%);
+	left: 45%;
+	color: white;
+	opacity: 1;
 }
 
 .slick-slide img {
@@ -957,7 +973,6 @@ section {
 .content-wrap {
 	padding-bottom:0px;
 }
-
 
 @media only screen and (max-width:1200px) {
 
