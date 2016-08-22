@@ -141,6 +141,7 @@ h5 {
 }
 #header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a {
 	padding-top:11px;
+	padding-bottom:15px;
 }
 .h2-font-less {
 	font-size:35px;
@@ -983,9 +984,24 @@ section {
 }
 
 
-@media only screen and (max-width:991px) {
+@media only screen and (max-width:992px) {
 	.section-1-column {
 		text-align:center;
+	}
+	.nopaddingbottom-mobile {
+		padding-bottom:0px;
+
+	}
+	.float-left-mobile {
+		float:none;
+	}
+	.section-1-column-mobile {
+		position:relative;
+		top:-25px;
+	}
+	.section-1-column-mobile-2 {
+		position:relative;
+		top:-20px;
 	}
 	.contact-box {
 		margin-top:-20px;
@@ -1167,7 +1183,7 @@ section {
 		margin-top:0px;
 	}
 }
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:401px) {
 	div.box-left > div.box-left-top > h4 {
 		font-size:18px;
 	}
@@ -1246,11 +1262,25 @@ section {
 	#insurance-text > h2 {
 		font-size:40px;
 	}
+	#insurance-text > h2 {
+		font-size:40px;
+	}
+	div.box-left > div.box-left-top > h4 {
+		font-size:20px;
+		top:-20px;
+		position:relative;
+	}
+	.box-left-top {
+		text-align:center;
+	}
 
 }
 
 @media only screen and (max-width:320px) {
 	#section-hotline {
 		height:280px;
+	}
+	#col-right > div > h4 {
+		font-size:20px;
 	}
 }
