@@ -388,6 +388,12 @@ q:after {
 	letter-spacing:.5px;
 }
 .section-four-row {
+	display: flex;
+}
+@media screen and (max-width: 768px) {
+	.section-four-row {
+		display: inherit;
+	}
 }
 .split-row-line {
 	/* Line: */
@@ -417,7 +423,7 @@ q:after {
 	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
 	border-radius: 8px;
 	border: 1px solid #7C7C7C;
-	height:340px;
+	/*height:340px;*/
 	text-align:left;
 }
 .img-size-80 {
@@ -692,7 +698,9 @@ div.box-right > div.box-right-top {
 	right:0px;
 	top:0px;
 }
-
+.modal-body {
+	text-align: center;
+}
 .img-half {
 	width:50%;
 }
@@ -834,7 +842,6 @@ section {
 
 .modal.in .modal-dialog {
 	border-radius:5px;
-	background:#FFF;
 	padding:15px;
 }
 .green-1 {
@@ -980,7 +987,7 @@ section {
 		margin-bottom:10px;
 	}
 	#section-work > div.container.clearfix.center {
-		width:850px;
+		/*width:850px;*/
 	}
 	#primary-menu ul li > a{
 		padding-left:10px;
