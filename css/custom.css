@@ -934,13 +934,13 @@ section {
     /* whatever width you want */
     display: inline-block;
     position: relative;
-    background-size: contain !important;
+    background-size: cover !important;
     margin: 0 auto;
 	background-repeat:no-repeat !important;
 	margin-bottom:-8px;
 }
 #section-location:after {
-	padding-top: 39.8%;
+	/*padding-top: 39.8%;*/
     /* this llama image is 800x600 so set the padding top % to match 600/800 = .75 */
     display: block;
     content: '';
@@ -1319,4 +1319,9 @@ section {
 	#col-right > div > h4 {
 		font-size:20px;
 	}
+}
+
+.col-md-4.col-md-offset-6 {
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
