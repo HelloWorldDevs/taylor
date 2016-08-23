@@ -48,7 +48,6 @@ h5,
 h6  {
 	font-family: Roboto Condensed;
 	font-weight:300;
-	letter-spacing: -0.97;
 }
 #section-visit {
 	background-position-y: 75px;
@@ -186,7 +185,6 @@ body.stretched #header.full-header .container {
 
 .slider-caption p {
 	font-size: 55px;
-	letter-spacing: -0.98px;
 }
 .topmargin-15 {
 	margin-top:15px;
@@ -210,7 +208,7 @@ q:after {
 	color: #7270BC;
 }
 .dark .slider-caption h2 {
-	letter-spacing: -1.5px;
+
 }
 .font-15 {
 	font-size:15px;
@@ -324,7 +322,6 @@ q:after {
 }
 .row-two-text {
 	color: #FFFFFF;
-	letter-spacing: -0.64px;
 	text-shadow: 2px 2px 5px rgba(0,0,0,0.91);
 }
 
@@ -485,7 +482,6 @@ q:after {
 	/* New Patient Dental E: */
 	font-size: 28px;
 	font-weight:400;
-	letter-spacing: -0.58px;
 	line-height: 38px;
 	margin-bottom:5px;
 }
@@ -495,7 +491,6 @@ q:after {
 
 .price-box-price {
 	font-size: 50px;
-	letter-spacing: -2.38px;
 	line-height: 38px;
 	text-align:right;
 }
@@ -523,7 +518,6 @@ q:after {
 	font-size: 18px;
 	font-weight:300;
 	color: #FFFFFF;
-	letter-spacing: -0.46px;
 }
 .section-six-title {
 	margin-bottom:0;
@@ -589,7 +583,6 @@ q:after {
 div.box-right > div.box-right-top {
 	/* PLANS START AT:: */	font-size: 14px;
 	color: #3E3E3E;
-	letter-spacing: -0.32px;
 	font-weight:300;
 	text-align:center;
 	margin-bottom:-8px;
@@ -630,7 +623,6 @@ div.box-right > div.box-right-top {
 	/* Easy Monthly Payment: */
 	font-size: 13px;
 	color: #7C7C7C;
-	letter-spacing: -0px;
 	font-weight:300;
 	line-height: 43px;
 }
