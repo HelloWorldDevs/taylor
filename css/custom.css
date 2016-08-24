@@ -124,8 +124,8 @@ h5 {
 }
 #primary-menu > ul > li:hover > a {
 	text-decoration:underline !important;
-	color:currentColor !important;
-	}
+	color:inherit;
+}
 
 .btn-green-font {
 	text-shadow:none;
@@ -1288,6 +1288,16 @@ section {
 }
 .a-text-white:hover {
 	text-decoration:underline !important;
+}
+
+#primary-menu > ul > li:nth-child(1):hover > a {
+	color:#FF7A00;
+}
+#primary-menu > ul > li:nth-child(2):hover > a {
+	color:#1ABC9C;
+}
+#primary-menu > ul > li:nth-child(3):hover > a {
+	color:#A7BB03;
 }
 
 @media only screen and (max-width:768px) {
