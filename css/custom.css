@@ -145,6 +145,7 @@ h5 {
 }
 a.text-white:hover {
 	color: #FFF;
+	text-decoration: underline;
 }
 .dark h2 {
 	color:#EFF9A5;
@@ -926,7 +927,7 @@ section {
 /*Slick Slider*/
 
 .tour-slide {
-	min-height: 300px;
+	/*min-height: 300px;*/
 	width: 100%;
 	background-position: center center;
 	background-size: cover;
@@ -1285,11 +1286,11 @@ section {
 	}
 	#section-location {
 		/*background-image:none !important;*/
-		margin-top:-125px;
+		/*margin-top:-125px;*/
 	}
 	.slick-dots {
 		position:relative;
-		top:-70px;
+		/*top:-70px;*/
 	}
 	.mobile-35-width {
 		width:35%;
@@ -1385,8 +1386,8 @@ section {
 		display:block;
 	}
 	#section-location {
-		margin-bottom: -60px;
-		background-image:none !important;
+		/*margin-bottom: -60px;*/
+		/*background-image:none !important;*/
 	}
 	.mobile-35-width {
 		width:90%;
@@ -1395,7 +1396,7 @@ section {
 		/*margin-bottom:-200px;*/
 	}
 	#section-tour > div.container {
-		margin-bottom:-85px;
+		/*margin-bottom:-85px;*/
 	}
 	.contact-box {
 		margin-bottom:-20px;
