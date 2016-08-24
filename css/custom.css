@@ -139,14 +139,12 @@ h5 {
 	padding-left:35px;
 	padding-right:35px;
 }
-.dark h4 {
-	color:#C2D31E;
-}
+
 .font-green {
 	color:#A7BB03
 }
 .font-green-2 {
-	color:#EFF9A5;
+	color:#EFF9A5 !important;
 }
 .btn-black:hover > .check-hover {
 	color:#333333;
@@ -155,7 +153,7 @@ h5 {
 	color:#1344E1;
 }
 .text-white {
-	color:#FFF;
+	color:#FFF !important;
 }
 a.text-white:hover {
 	color: #FFF;
@@ -1103,6 +1101,43 @@ section {
 	padding-bottom:0px;
 }
 
+<<<<<<< HEAD
+.text-shadow {
+	font-family: "RobotoCondensed-Regular";
+	font-size: 55px;
+	color: #FFFFFF;
+	letter-spacing: -0.89px;
+	text-shadow: 2px 2px 5px rgba(0,0,0,0.92);
+}
+.modal-header-close {
+	padding-bottom:10px;
+
+}
+
+#mail-form > button {
+	background:#C2D31E;
+	border:none;
+}
+button.close {
+	color: #d9534f !important;
+}
+.a-text-white {
+	color:#FFF !important;
+}
+.a-text-white:hover {
+	text-decoration:underline !important;
+}
+
+#primary-menu > ul > li:nth-child(1):hover > a {
+	color:#FF7A00 !important;
+}
+#primary-menu > ul > li:nth-child(2):hover > a {
+	color:#1ABC9C !important;
+}
+#primary-menu > ul > li:nth-child(3):hover > a {
+	color:#A7BB03 !important;
+}
+
 #primary-menu-trigger {
 	margin-left: 90%;
 }
@@ -1140,6 +1175,13 @@ section {
 	.section-1-column {
 		text-align:center;
 	}
+	#primary-menu > ul > li > a {
+		color:#000 !important;
+	}
+	#primary-menu > ul > li:nth-child(1):hover > a {
+		color:#FF7A00 !important;
+	}
+
 	.box-text {
 		font-size:16px;
 	}
@@ -1287,41 +1329,6 @@ section {
 		display:none;
 	}
 
-}
-.text-shadow {
-	font-family: "RobotoCondensed-Regular";
-	font-size: 55px;
-	color: #FFFFFF;
-	letter-spacing: -0.89px;
-	text-shadow: 2px 2px 5px rgba(0,0,0,0.92);
-}
-.modal-header-close {
-	padding-bottom:10px;
-
-}
-
-#mail-form > button {
-	background:#C2D31E;
-	border:none;
-}
-button.close {
-	color: #d9534f !important;
-}
-.a-text-white {
-	color:#FFF !important;
-}
-.a-text-white:hover {
-	text-decoration:underline !important;
-}
-
-#primary-menu > ul > li:nth-child(1):hover > a {
-	color:#FF7A00;
-}
-#primary-menu > ul > li:nth-child(2):hover > a {
-	color:#1ABC9C;
-}
-#primary-menu > ul > li:nth-child(3):hover > a {
-	color:#A7BB03;
 }
 
 @media only screen and (max-width:768px) {
