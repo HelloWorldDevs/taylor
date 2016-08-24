@@ -16,16 +16,19 @@
 	top:50%;
 	transform:translateY(-50%);
 }
-
 .footer-image {
 	width:50%;
 	float:right;
 	padding-right:15px;
 }
 
+html {
+
+}
 
 body {
-	font-family: Roboto Condensed;
+	font-family: "Roboto Condensed";
+	font-size: 16px;
 	font-weight:300;
 	color:#333;
 }
@@ -57,7 +60,7 @@ h3,
 h4,
 h5,
 h6  {
-	font-family: Roboto Condensed;
+	font-family: "Roboto Condensed";
 	font-weight:300;
 }
 #section-visit {
@@ -83,6 +86,7 @@ h5 {
 	padding-left:13px;
 	padding-right:13px;
 	height:33px;
+	margin-bottom: 30px;
 }
 .top-up-4 {
 	position:relative;
@@ -150,6 +154,13 @@ h5 {
 .font-blue {
 	color:#1344E1;
 }
+.text-white {
+	color:#FFF;
+}
+a.text-white:hover {
+	color: #FFF;
+	text-decoration: underline;
+}
 .dark h2 {
 	color:#EFF9A5;
 }
@@ -163,11 +174,11 @@ h5 {
 }
 
 .gentium-book {
-	font-family: Gentium Book Basic;
+	font-family: "Gentium Book Basic";
 	font-weight:400;
 }
 .roboto-condensed {
-	font-family: Roboto Condensed;
+	font-family: "Roboto Condensed";
 }
 .retina-logo, .standard-logo {
 	width:90%;
@@ -256,7 +267,7 @@ q:after {
 
 .section-8-purple {
 	color:#00B5FF;
-	font-family:Roboto Condensed;
+	font-family: "Roboto Condensed";
 	font-weight:400;
 }
 #r-symbol {
@@ -547,7 +558,7 @@ max-height: 0px;
 }
 #primary-menu > ul > li > a > div, #primary-menu ul li > a {
 	font-weight:300;
-	font-family: Roboto Condensed;
+	font-family: "Roboto Condensed";
 	letter-spacing:0px;
 	font-size:16px;
 	padding-bottom:11px;
@@ -929,7 +940,7 @@ section {
 /*Slick Slider*/
 
 .tour-slide {
-	min-height: 300px;
+	/*min-height: 300px;*/
 	width: 100%;
 	background-position: center center;
 	background-size: cover;
@@ -1005,13 +1016,13 @@ section {
     /* whatever width you want */
     display: inline-block;
     position: relative;
-    background-size: contain !important;
+    background-size: cover !important;
     margin: 0 auto;
 	background-repeat:no-repeat !important;
 	margin-bottom:-8px;
 }
 #section-location:after {
-	padding-top: 39.8%;
+	/*padding-top: 39.8%;*/
     /* this llama image is 800x600 so set the padding top % to match 600/800 = .75 */
     display: block;
     content: '';
@@ -1265,7 +1276,7 @@ section {
 
 }
 .text-shadow {
-	font-family: RobotoCondensed-Regular;
+	font-family: "RobotoCondensed-Regular";
 	font-size: 55px;
 	color: #FFFFFF;
 	letter-spacing: -0.89px;
@@ -1295,15 +1306,16 @@ section {
 		font-size:16px;
 	}
 	#section-location {
-		background-image:none !important;
-		margin-top:-125px;
+		/*background-image:none !important;*/
+		/*margin-top:-125px;*/
 	}
 	.slick-dots {
 		position:relative;
-		top:-70px;
+		/*top:-70px;*/
 	}
 	.mobile-35-width {
 		width:35%;
+		min-width: 150px;
 	}
 	.mobile-gone {
 		display:none;
@@ -1378,7 +1390,10 @@ section {
 		width:100%;
 	}
 	.box-right {
-		height:185px;
+		height: 245px;
+	}
+	a.btn.background-orange {
+		margin-top: 7px;
 	}
 	div.box-right > div.box-right-top {
 		font-size:15px;
@@ -1402,17 +1417,17 @@ section {
 		display:block;
 	}
 	#section-location {
-		margin-bottom: -60px;
-		background-image:none !important;
+		/*margin-bottom: -60px;*/
+		/*background-image:none !important;*/
 	}
 	.mobile-35-width {
 		width:90%;
 	}
 	.slick-initialized .slick-slide {
-		margin-bottom:-200px;
+		/*margin-bottom:-200px;*/
 	}
 	#section-tour > div.container {
-		margin-bottom:-85px;
+		/*margin-bottom:-85px;*/
 	}
 	.contact-box {
 		margin-bottom:-20px;
@@ -1464,4 +1479,9 @@ section {
 	#col-right > div > h4 {
 		font-size:20px;
 	}
+}
+
+.col-md-4.col-md-offset-6 {
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
