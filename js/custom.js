@@ -30,7 +30,7 @@
       speed: 400,
       autoplay: 8000
     });
-    
+
     $('.load-more').on("click", function () {
       HWD.rowNum += 1;
       HWD.fixRows();
