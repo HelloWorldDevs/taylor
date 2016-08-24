@@ -30,7 +30,7 @@
       speed: 400,
       autoplay: 8000
     });
-    
+
     $('.load-more').on("click", function () {
       HWD.rowNum += 1;
       HWD.fixRows();
@@ -92,6 +92,10 @@
 
   var HWD = new HelloWorldDevs();
   $(document).ready(function () {
+  $('.ui-accordion-header').click(function () {
+      $(this).parent().find('.ui-accordion-content').addClass('folded');
+      $(this).next().removeClass('folded');
+    });
     HWD.fixRows();
     HWD.noOrphans('h1,h2,h3,h4,h5,h6,li,p');
     HWD.mailForm('#mail-form');
