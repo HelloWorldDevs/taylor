@@ -1177,16 +1177,30 @@ section {
 	}
 
 }
+.text-shadow {
+	font-family: RobotoCondensed-Regular;
+	font-size: 55px;
+	color: #FFFFFF;
+	letter-spacing: -0.89px;
+	text-shadow: 2px 2px 5px rgba(0,0,0,0.92);
+}
 
+.a-text-white {
+	color:#FFF !important;
+}
+.a-text-white:hover {
+	text-decoration:underline !important;
+}
 
 @media only screen and (max-width:768px) {
 	.contact-box-wrap {
 		width:100%;
 		margin-right:0;
 	}
-	.slick-next:before, .slick-prev:before {
-		margin-top:-500%;
+	#section-location {
+		padding-bottom:15px;
 	}
+
 	.tablet-gone {
 		display:block;
 	}
