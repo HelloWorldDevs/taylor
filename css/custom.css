@@ -10,11 +10,25 @@
 	letter-spacing: .1;
 	font-weight:300;
 }
+.vertical-align-abs {
+	position:absolute;
+	right:0px;
+	top:50%;
+	transform:translateY(-50%);
+}
+.footer-image {
+	width:50%;
+	float:right;
+	padding-right:15px;
+}
 
+html {
 
+}
 
 body {
-	font-family: Roboto Condensed;
+	font-family: "Roboto Condensed";
+	font-size: 16px;
 	font-weight:300;
 	color:#333;
 }
@@ -46,7 +60,7 @@ h3,
 h4,
 h5,
 h6  {
-	font-family: Roboto Condensed;
+	font-family: "Roboto Condensed";
 	font-weight:300;
 }
 #section-visit {
@@ -110,8 +124,8 @@ h5 {
 }
 #primary-menu > ul > li:hover > a {
 	text-decoration:underline !important;
-	color:currentColor !important;
-	}
+	color:inherit;
+}
 
 .btn-green-font {
 	text-shadow:none;
@@ -160,11 +174,11 @@ a.text-white:hover {
 }
 
 .gentium-book {
-	font-family: Gentium Book Basic;
+	font-family: "Gentium Book Basic";
 	font-weight:400;
 }
 .roboto-condensed {
-	font-family: Roboto Condensed;
+	font-family: "Roboto Condensed";
 }
 .retina-logo, .standard-logo {
 	width:90%;
@@ -253,7 +267,7 @@ q:after {
 
 .section-8-purple {
 	color:#00B5FF;
-	font-family:Roboto Condensed;
+	font-family: "Roboto Condensed";
 	font-weight:400;
 }
 #r-symbol {
@@ -544,7 +558,7 @@ max-height: 0px;
 }
 #primary-menu > ul > li > a > div, #primary-menu ul li > a {
 	font-weight:300;
-	font-family: Roboto Condensed;
+	font-family: "Roboto Condensed";
 	letter-spacing:0px;
 	font-size:16px;
 	padding-bottom:11px;
@@ -838,7 +852,6 @@ div.box-right > div.box-right-top {
 
 #footer, #copyrights {
 	background: #A7BB03;
-	height:96px;
 }
 #copyrights {
 	margin:0 auto;
@@ -1061,6 +1074,12 @@ section {
 	padding-top:15px;
 	padding-bottom:20px;
 }
+.footer-image {
+	width:80%;
+	margin:0 auto;
+	text-align:center;
+	float:none;
+}
 
 
 .slick-dots li button:before {
@@ -1098,6 +1117,9 @@ section {
 	#primary-menu ul li > a {
 		background:#fff;
 	}
+	.footer-image {
+		width:50%;
+	}
 
 }
 
@@ -1112,7 +1134,6 @@ section {
 	.section-1-column {
 		text-align:center;
 	}
-
 	.box-text {
 		font-size:16px;
 	}
@@ -1262,18 +1283,39 @@ section {
 
 }
 .text-shadow {
-	font-family: RobotoCondensed-Regular;
+	font-family: "RobotoCondensed-Regular";
 	font-size: 55px;
 	color: #FFFFFF;
 	letter-spacing: -0.89px;
 	text-shadow: 2px 2px 5px rgba(0,0,0,0.92);
 }
+.modal-header-close {
+	padding-bottom:10px;
 
+}
+
+#mail-form > button {
+	background:#C2D31E;
+	border:none;
+}
+button.close {
+	color: #d9534f !important;
+}
 .a-text-white {
 	color:#FFF !important;
 }
 .a-text-white:hover {
 	text-decoration:underline !important;
+}
+
+#primary-menu > ul > li:nth-child(1):hover > a {
+	color:#FF7A00;
+}
+#primary-menu > ul > li:nth-child(2):hover > a {
+	color:#1ABC9C;
+}
+#primary-menu > ul > li:nth-child(3):hover > a {
+	color:#A7BB03;
 }
 
 @media only screen and (max-width:768px) {
@@ -1348,6 +1390,15 @@ section {
 	}
 	#section-location {
 		margin-top:0px;
+	}
+}
+
+@media only screen and (max-width:600px) {
+	.display-600 {
+		display:block;
+	}
+	.no-display-600 {
+		display:none;
 	}
 }
 @media only screen and (max-width:401px) {
