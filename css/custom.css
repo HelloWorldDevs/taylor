@@ -10,7 +10,18 @@
 	letter-spacing: .1;
 	font-weight:300;
 }
+.vertical-align-abs {
+	position:absolute;
+	right:0px;
+	top:50%;
+	transform:translateY(-50%);
+}
 
+.footer-image {
+	width:50%;
+	float:right;
+	padding-right:15px;
+}
 
 
 body {
@@ -830,7 +841,6 @@ div.box-right > div.box-right-top {
 
 #footer, #copyrights {
 	background: #A7BB03;
-	height:96px;
 }
 #copyrights {
 	margin:0 auto;
@@ -1046,6 +1056,12 @@ section {
 	padding-top:15px;
 	padding-bottom:20px;
 }
+.footer-image {
+	width:80%;
+	margin:0 auto;
+	text-align:center;
+	float:none;
+}
 
 
 .slick-dots li button:before {
@@ -1083,6 +1099,9 @@ section {
 	#primary-menu ul li > a {
 		background:#fff;
 	}
+	.footer-image {
+		width:50%;
+	}
 
 }
 
@@ -1097,7 +1116,6 @@ section {
 	.section-1-column {
 		text-align:center;
 	}
-
 	.box-text {
 		font-size:16px;
 	}
@@ -1332,6 +1350,15 @@ section {
 	}
 	#section-location {
 		margin-top:0px;
+	}
+}
+
+@media only screen and (max-width:600px) {
+	.display-600 {
+		display:block;
+	}
+	.no-display-600 {
+		display:none;
 	}
 }
 @media only screen and (max-width:401px) {
