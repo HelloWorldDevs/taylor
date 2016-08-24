@@ -1294,6 +1294,7 @@ section {
 	}
 	.mobile-35-width {
 		width:35%;
+		min-width: 150px;
 	}
 	.mobile-gone {
 		display:none;
