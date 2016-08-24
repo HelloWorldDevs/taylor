@@ -890,10 +890,11 @@ div.box-right > div.box-right-top {
 	border-top:0;
 	height:96px;
 }
-section {
+.section {
 	width:100%;
 	background-position:center center;
-	background-size:cover;
+	background-size:auto;
+	margin:0;
 }
 #mobile-background {
 	display:none;
@@ -915,8 +916,7 @@ section {
 }
 #section-hotline {
 	background:#FFF;
-	height:180px;
-	margin-top:30px;
+	height:auto;
 }
 
 
@@ -1299,7 +1299,7 @@ button.close {
 		float:none !important;
 	}
 	#section-hotline {
-		height:225px;
+		height:auto;
 	}
 	#section-hotline > div > h5 {
 		top:15px;
