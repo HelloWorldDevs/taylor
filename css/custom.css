@@ -1282,7 +1282,18 @@ section {
 	letter-spacing: -0.89px;
 	text-shadow: 2px 2px 5px rgba(0,0,0,0.92);
 }
+.modal-header-close {
+	padding-bottom:10px;
 
+}
+
+#mail-form > button {
+	background:#C2D31E;
+	border:none;
+}
+button.close {
+	color: #d9534f !important;
+}
 .a-text-white {
 	color:#FFF !important;
 }
