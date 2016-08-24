@@ -135,6 +135,12 @@ h5 {
 .font-blue {
 	color:#1344E1;
 }
+.text-white {
+	color:#FFF;
+}
+a.text-white:hover {
+	color: #FFF;
+}
 .dark h2 {
 	color:#EFF9A5;
 }

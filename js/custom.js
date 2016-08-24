@@ -91,7 +91,6 @@
   };
 
   var HWD = new HelloWorldDevs();
-  $(document).ready(function () {
     HWD.fixRows();
     HWD.noOrphans('h1,h2,h3,h4,h5,h6,li,p');
     HWD.mailForm('#mail-form');
@@ -131,7 +130,6 @@
         }
       ]
     });
-  });
   $(window).on("resize", function () {
     HWD.fixRows();
   });
