@@ -69,53 +69,55 @@
   };
 
   var HWD = new HelloWorldDevs();
-  HWD.fixRows();
-  HWD.noOrphans('h1,h2,h3,h4,h5,h6,li,p,span,div');
-  HWD.mailForm('#mail-form');
-  $('.tour-slider').slick({
-    dots: true,
-    infinite: true,
-    speed: 300,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: true,
-    autoplaySpeed: 4000,
-  });
-  $('.team-slider').slick({
-    dots: true,
-    infinite: true,
-    speed: 300,
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    arrows: true,
-    autoplaySpeed: 4000,
-    responsive: [
-      {
-        breakpoint: 800,
-        settings: {
-          dots: false,
-          slidesToShow: 3,
-          slidesToScroll: 1
+    HWD.fixRows();
+    HWD.noOrphans('h1,h2,h3,h4,h5,h6,li,p');
+    HWD.mailForm('#mail-form');
+    $('.tour-slider').slick({
+      dots: true,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: true,
+      autoplaySpeed: 4000,
+    });
+
+    $('.team-slider').slick({
+      dots: true,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      arrows: true,
+      autoplaySpeed: 4000,
+      responsive: [
+        {
+          breakpoint: 800,
+          settings: {
+            dots: false,
+            slidesToShow: 3,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            dots: false,
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 400,
+          settings: {
+            dots: false,
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
         }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          dots: false,
-          slidesToShow: 2,
-          slidesToScroll: 1
-        }
-      },
-      {
-        breakpoint: 400,
-        settings: {
-          dots: false,
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
-  });
+      ]
+
+    });
   $(window).on("resize", function () {
     HWD.fixRows();
   });
