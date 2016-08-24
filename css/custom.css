@@ -102,11 +102,15 @@ h5 {
 	color: #00B5FF;
 }
 #col-left {
-	border-left:1px solid #353C3F;
+	border-left:1px solid #FFF;
 }
 #col-right {
 	margin-top:-7px;
 }
+#primary-menu > ul > li:hover > a {
+	text-decoration:underline !important;
+	color:currentColor !important;
+	}
 
 .btn-green-font {
 	text-shadow:none;
@@ -469,7 +473,7 @@ q:after {
 	font-weight:300;
 	font-family: Roboto Condensed;
 	letter-spacing:0px;
-	font-size:15px;
+	font-size:16px;
 	padding-bottom:11px;
 	padding-top:11px;
 }
