@@ -72,6 +72,7 @@ h5 {
 	padding-left:13px;
 	padding-right:13px;
 	height:33px;
+	margin-bottom: 30px;
 }
 .top-up-4 {
 	position:relative;
@@ -1229,7 +1230,10 @@ section {
 		width:100%;
 	}
 	.box-right {
-		height:185px;
+		height: 245px;
+	}
+	a.btn.background-orange {
+		margin-top: 7px;
 	}
 	div.box-right > div.box-right-top {
 		font-size:15px;
@@ -1262,7 +1266,7 @@ section {
 		width:90%;
 	}
 	.slick-initialized .slick-slide {
-		margin-bottom:-200px;
+		/*margin-bottom:-200px;*/
 	}
 	#section-tour > div.container {
 		margin-bottom:-85px;

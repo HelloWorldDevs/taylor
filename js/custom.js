@@ -127,6 +127,14 @@
             slidesToShow: 2,
             slidesToScroll: 1
           }
+        },
+        {
+          breakpoint: 400,
+          settings: {
+            dots: false,
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
         }
       ]
     });
