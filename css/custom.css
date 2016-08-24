@@ -385,6 +385,12 @@ q:after {
 	letter-spacing:.5px;
 }
 .section-four-row {
+	display: flex;
+}
+@media screen and (max-width: 768px) {
+	.section-four-row {
+		display: inherit;
+	}
 }
 .split-row-line {
 	/* Line: */
@@ -414,7 +420,7 @@ q:after {
 	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
 	border-radius: 8px;
 	border: 1px solid #7C7C7C;
-	height:340px;
+	/*height:340px;*/
 	text-align:left;
 }
 .img-size-80 {
@@ -684,7 +690,9 @@ div.box-right > div.box-right-top {
 	right:0px;
 	top:0px;
 }
-
+.modal-body {
+	text-align: center;
+}
 .img-half {
 	width:50%;
 }
@@ -826,7 +834,6 @@ section {
 
 .modal.in .modal-dialog {
 	border-radius:5px;
-	background:#FFF;
 	padding:15px;
 }
 .green-1 {
@@ -972,7 +979,7 @@ section {
 		margin-bottom:10px;
 	}
 	#section-work > div.container.clearfix.center {
-		width:850px;
+		/*width:850px;*/
 	}
 	#primary-menu ul li > a{
 		padding-left:10px;
@@ -995,6 +1002,7 @@ section {
 	.section-1-column {
 		text-align:center;
 	}
+
 	.nopaddingbottom-mobile {
 		padding-bottom:0px !important;
 
@@ -1122,6 +1130,9 @@ section {
 		background-position-y: 0px;
 		max-height:500px;
 	}
+	#section-services {
+		height:700px;
+	}
 
 }
 .mobile-appear {
@@ -1133,6 +1144,9 @@ section {
 	.contact-box-wrap {
 		width:100%;
 		margin-right:0;
+	}
+	div.box-left > div.box-left-top > h4 {
+		font-size:16px;
 	}
 	#section-location {
 		background-image:none !important;
@@ -1158,7 +1172,9 @@ section {
 		height:365px;
 	}
 	div.box-left > div.box-left-top > h4 {
-		font-size:20px;
+		font-size:15px;
+		position:relative;
+		top:-15px;
 	}
 	#dollar-28, #price-28 {
 		left:-43px;
@@ -1192,7 +1208,7 @@ section {
 }
 @media only screen and (max-width:401px) {
 	div.box-left > div.box-left-top > h4 {
-		font-size:18px;
+		font-size:16px;
 	}
 	.col-md-4.center.noleftpadding {
 		padding-right:0;
@@ -1233,7 +1249,7 @@ section {
 		display:block;
 	}
 	#section-location {
-		margin-bottom:-100px;
+		margin-bottom: -60px;
 		background-image:none !important;
 	}
 	.mobile-35-width {
@@ -1273,12 +1289,17 @@ section {
 		font-size:40px;
 	}
 	div.box-left > div.box-left-top > h4 {
-		font-size:20px;
+		font-size:16px;
 		top:-20px;
 		position:relative;
 	}
 	.box-left-top {
 		text-align:center;
+	}
+	.section-1-row {
+		 text-align: center;
+		 width: inherit;
+		/* margin: 0 auto; */
 	}
 
 }

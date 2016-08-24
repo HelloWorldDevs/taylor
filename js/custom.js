@@ -3,29 +3,34 @@
     this.rowLength = 3;
     this.rowNum = 1;
     that = this;
-    $('.fslider.customjs').flexslider({
-      selector: ".slider-wrap > .slide",
-      animation: 'slide',
-      easing: 'swing',
-      direction: 'horizontal',
-      reverse: false,
-      slideshow: 'false',
-      slideshowSpeed: Number(5000),
-      animationSpeed: Number(600),
-      pauseOnHover: true,
-      video: false,
-      controlNav: false,
-      directionNav: false,
-      smoothHeight: false,
-      useCSS: true,
-      touch: true,
-      start: function (slider) {
-        SEMICOLON.widget.animations();
-        SEMICOLON.initialize.verticalMiddle();
-        slider.removeClass('preloader2');
-      }
-    });
+    // $('.fslider.customjs').flexslider({
+    //   selector: ".slider-wrap > .slide",
+    //   animation: 'slide',
+    //   easing: 'swing',
+    //   direction: 'horizontal',
+    //   reverse: false,
+    //   slideshow: 'false',
+    //   slideshowSpeed: Number(8000),
+    //   animationSpeed: Number(600),
+    //   pauseOnHover: true,
+    //   video: false,
+    //   controlNav: false,
+    //   directionNav: false,
+    //   smoothHeight: false,
+    //   useCSS: true,
+    //   touch: true,
+    //   start: function (slider) {
+    //     SEMICOLON.widget.animations();
+    //     SEMICOLON.initialize.verticalMiddle();
+    //     slider.removeClass('preloader2');
+    //   }
+    // });
 
+    var mySwiper = new Swiper('.swiper-container', {
+      speed: 400,
+      autoplay: 8000
+    });
+    
     $('.load-more').on("click", function () {
       HWD.rowNum += 1;
       HWD.fixRows();
@@ -111,6 +116,7 @@
         {
           breakpoint: 800,
           settings: {
+            dots: false,
             slidesToShow: 3,
             slidesToScroll: 1
           }
@@ -118,6 +124,7 @@
         {
           breakpoint: 600,
           settings: {
+            dots: false,
             slidesToShow: 2,
             slidesToScroll: 1
           }
