@@ -1017,6 +1017,7 @@ section {
 
 #section-tour > div.center.bottommargin-20 > span {
 	font-size: 16px;
+
 }
 #section-location {
 	width: 100%;
@@ -1102,6 +1103,10 @@ section {
 	padding-bottom:0px;
 }
 
+#primary-menu-trigger {
+	margin-left: 90%;
+}
+
 @media only screen and (max-width:1200px) {
 
 	div > div.price-box-content > h4 {
@@ -1116,6 +1121,7 @@ section {
 	}
 	#primary-menu ul li > a {
 		background:#fff;
+		text-align: center;
 	}
 	.footer-image {
 		width:50%;
