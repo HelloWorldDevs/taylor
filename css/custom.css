@@ -139,14 +139,12 @@ h5 {
 	padding-left:35px;
 	padding-right:35px;
 }
-.dark h4 {
-	color:#C2D31E;
-}
+
 .font-green {
 	color:#A7BB03
 }
 .font-green-2 {
-	color:#EFF9A5;
+	color:#EFF9A5 !important;
 }
 .btn-black:hover > .check-hover {
 	color:#333333;
