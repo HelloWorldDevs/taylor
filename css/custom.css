@@ -1526,3 +1526,10 @@ button.close {
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
+#logo {
+	margin-top: 5px;
+}
+
+#logo img {
+	height: 60px;
+}
